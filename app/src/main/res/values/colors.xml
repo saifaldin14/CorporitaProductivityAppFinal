@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryLight">#C5CAE9</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="appGeneral">#631D97</color>
+    <color name="myGoalsCol">#ca25ca</color>
+
+    <!--Health, Career, Finance, Family, Personal, Recreation, Relationship, Social-->
+
+
+    <color name="HealthColor">#ff001a</color>
+    <color name="CareerColor">#113a0c</color>
+    <color name="FinanceColor">#ffa500</color>
+    <color name="FamilyColor">#6500FF</color>
+    <color name="PersonalColor">#005aff</color>
+    <color name="RecreationColor">#9aff00</color>
+    <color name="RelationshipColor">#ff00d9</color>
+    <color name="SocialColor">#21796f</color>
+
+    <!-- colors for task priority selection -->
+    <color name="materialRed">#E74C3C</color>
+    <color name="materialOrange">#E67E22</color>
+    <color name="materialYellow">#F1C40F</color>
+</resources>

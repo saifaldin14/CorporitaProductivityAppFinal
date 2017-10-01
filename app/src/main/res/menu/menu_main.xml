@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/homeButt"
+        android:icon="@drawable/home_clicked"
+        app:showAsAction="always"
+        android:title="home">
+
+    </item>
+    <item
+        android:id="@+id/goalsButt"
+        android:icon="@drawable/goals"
+        app:showAsAction="always"
+        android:title="goals">
+
+    </item>
+    <item
+        android:id="@+id/taskButt"
+        android:icon="@drawable/task"
+        app:showAsAction="always"
+        android:title="task">
+
+    </item>
+    <item
+        android:id="@+id/listButt"
+        android:icon="@drawable/list"
+        app:showAsAction="always"
+        android:title="list">
+
+    </item>
+
+</menu>

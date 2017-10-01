@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Corporita Productivity App</string>
+    <string name="my_goals_title">My Life Wheel</string>
+    <string name="csmarter_title">CSMARTER Goal</string>
+    <string name="goal_subtitle">What\'s Your Goal?</string>
+    <string name="goal_hint">Ex. Gain Weight</string>
+    <string name="measure_subtitle">How Will You Measure It?</string>
+    <string name="measure_hint">Ex. 10 lbs</string>
+    <string name="category_title">Category</string>
+    <string name="progress_title">Progress</string>
+    <string name="progress_warning">(Goal will be removed when progress is at 100%)</string>
+    <string name="save_button_text">Save</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="time_frame_title">Time Frame</string>
+    <string name="my_goals_subtitle">My Goals</string>
+    <string name="delete_button_text">Delete</string>
+    <string name="warning_text">Having too many goals is not recommended</string>
+    <string name="csmarter_text">test</string>
+    <string name="progress_update_title">Progress Update Notification</string>
+
+    <string-array name="categories">
+        <item>Health</item>
+        <item>Career</item>
+        <item>Finance</item>
+        <item>Family</item>
+        <item>Personal</item>
+        <item>Recreation</item>
+        <item>Relationship</item>
+        <item>Social</item>
+
+    </string-array>
+
+    <string name="main_menu_activity_name">All Tasks</string>
+    <string name="add_task_activity_name">Add a New Task</string>
+
+    <!-- Strings for MainActivity -->
+    <string name="priority_1">1</string>
+    <string name="priority_2">2</string>
+    <string name="priority_3">3</string>
+
+    <!-- Strings for AddTaskActivity -->
+    <!-- This edit task has a unicode character for "..." = "&#8230;" -->
+    <string name="edit_task_description">Describe your task&#8230;</string>
+    <string name="priority_string">Priority</string>
+
+    <string name="high_priority">High</string>
+    <string name="med_priority">Medium</string>
+    <string name="low_priority">Low</string>
+
+    <string name="add_button">Add</string>
+</resources>

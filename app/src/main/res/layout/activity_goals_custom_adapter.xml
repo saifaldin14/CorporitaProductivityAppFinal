@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameGoals"
+        android:layout_width="345dp"
+        android:layout_height="43dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/bottom_bar"
+        android:gravity="center_vertical"
+        android:text="GoalsName"
+        android:textColor="@android:color/background_light"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/measuredBy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/nameGoals"
+        android:layout_alignRight="@+id/nameGoals"
+        android:layout_below="@+id/nameGoals"
+        android:layout_marginTop="10dp"
+        android:text="Measured by"
+        android:textColor="@color/myGoalsCol"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/timeFrame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/measuredBy"
+        android:layout_alignRight="@+id/measuredBy"
+        android:layout_below="@+id/measuredBy"
+        android:layout_marginTop="10dp"
+        android:text="Time Frame"
+        android:textColor="@color/myGoalsCol"
+        android:textSize="18sp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView4"
+        android:layout_toLeftOf="@+id/progressDisplay"
+        android:layout_toStartOf="@+id/progressDisplay"
+        android:paddingBottom="10dp"
+        android:paddingTop="15dp"
+        android:progress="50"
+        android:progressTint="@color/myGoalsCol" />
+
+    <TextView
+        android:id="@+id/progressDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/category"
+        android:layout_alignRight="@+id/category"
+        android:layout_below="@+id/category"
+        android:layout_marginTop="10dp"
+        android:gravity="left"
+        android:text="Progress Percent"
+        android:textColor="@color/myGoalsCol"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/timeFrame"
+        android:layout_alignRight="@+id/timeFrame"
+        android:layout_below="@+id/timeFrame"
+        android:layout_marginTop="10dp"
+        android:text="Category"
+        android:textColor="@color/myGoalsCol"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/measuredBy"
+        android:layout_alignLeft="@+id/nameGoals"
+        android:layout_alignStart="@+id/nameGoals"
+        android:layout_alignTop="@+id/measuredBy"
+        android:text="Measured by:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_alignTop="@+id/timeFrame"
+        android:text="Time Frame:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/category"
+        android:layout_alignBottom="@+id/category"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:text="Category:"
+        android:textColor="@android:color/background_dark"
+        android:textSize="18sp" />
+
+</RelativeLayout>

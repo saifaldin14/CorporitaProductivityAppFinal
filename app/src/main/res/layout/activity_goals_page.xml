@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.corporita.corporitaproductivityapp.MainActivity"
+    android:weightSum="1"
+    android:orientation="vertical"  >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appGeneral">
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/goalsTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:text="@string/my_goals_title"
+                android:textColor="@color/myGoalsCol"
+                android:textSize="30sp" />
+
+            <LinearLayout
+                android:id="@+id/lifeWheelLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="50dp"
+                android:paddingRight="50dp">
+
+                <view
+                    android:id="@+id/lifeWheelView"
+                    class="com.corporita.corporitaproductivityapp.LifeWheel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:foreground="@drawable/life_wheel" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/goalsCat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:elevation="1dp"
+                android:gravity="center_vertical|center_horizontal"
+                android:paddingTop="20dp"
+                android:text="@string/my_goals_subtitle"
+                android:textColor="@color/myGoalsCol"
+                android:textSize="24sp" />
+
+            <ListView
+                android:id="@+id/goalsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ListView>
+
+            <TextView
+                android:id="@+id/goalWarn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:gravity="center_horizontal"
+                android:text="@string/warning_text"
+                android:textColor="@android:color/darker_gray"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/goAdd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:elevation="2dp"
+                android:onClick="goToAddGoals"
+                android:paddingTop="10dp"
+                android:text="+"
+                android:textColor="@color/myGoalsCol"
+                android:textSize="24sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
